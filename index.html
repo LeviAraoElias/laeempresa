@@ -1,25 +1,89 @@
+
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LAE Prestação de Serviço</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            height: 80px;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            color: gold;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .card {
+            background-color: #1a1a1a;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 12px;
+            max-width: 600px;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        a.button {
+            background-color: gold;
+            color: black;
+            padding: 10px 20px;
+            margin: 10px;
+            display: inline-block;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <header>
+        <img src="lae_logo_black.png" alt="LAE Logo" />
         <h1>LAE Prestação de Serviço</h1>
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="sobre.html">Sobre Nós</a>
-            <a href="servicos.html">Serviços</a>
-            <a href="https://wa.me/244924645874" target="_blank">WhatsApp</a>
-            <a href="https://instagram.com/leviaraoeliias" target="_blank">Instagram</a>
-        </nav>
     </header>
-    <main>
-        <h2>Bem-vindo à LAE Prestação de Serviço</h2>
-        <p>Uma empresa com várias filiais: LAE Business, Elavoco Sumos, LAE Entreteniment, LAE Transportes e muito mais.</p>
-    </main>
+    <section class="card">
+        <h2>LAE Entretenimento</h2>
+        <img src="entretenimento.jpg" alt="Entretenimento">
+        <p>Organização de eventos com requinte e excelência.</p>
+    </section>
+    <section class="card">
+        <h2>Elavoco Sumos</h2>
+        <img src="sumos.jpg" alt="Sumos">
+        <p>Dê ao seu sabor um sabor natural.</p>
+    </section>
+    <section class="card">
+        <h2>Outras Filiais</h2>
+        <img src="transportes.jpg" alt="Transportes">
+        <p>Inclui LAE Business, LAE Transportes e mais.</p>
+    </section>
+    <footer>
+        <p>Contacto: 924645874 | E-mail: levielavocoarao@gmail.com</p>
+        <a class="button" href="https://wa.me/244924645874" target="_blank">WhatsApp</a>
+        <a class="button" href="https://instagram.com/leviaraoeliias" target="_blank">Instagram</a>
+    </footer>
 </body>
 </html>
